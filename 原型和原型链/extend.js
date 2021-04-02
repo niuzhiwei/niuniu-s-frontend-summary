@@ -40,3 +40,7 @@ niuniu.eat()
 const teacherW = new Teacher('wang', '语文')
 console.log(teacherW.name)
 teacherW.teach()
+
+niuniu instanceof Student; //true
+niuniu instanceof People //true
+niuniu instanceof Object //true
