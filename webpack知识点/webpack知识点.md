@@ -62,3 +62,23 @@
 * 代码体积更小
 * 创建函数作用域更少
 * 代码可读性更好
+  
+### 前端为何要进行打包和构建？
+* 体积更小（Tree-shaking、压缩、合并）,加载更快
+* 编译高级语言或语法（TS，es6+,模块化，scss)
+* 兼容性和错误检查（polyfill、postcss、eslint)
+* 统一、高效的开发环境
+* 统一的构建流程和产出标准
+
+### loader和plugin的区别
+* loader模块转换器，如less->css
+* plugin扩展插件，如htmlwebpackplugin
+
+### 常见的loader和plugin有哪些
+[loader](https://www.webpackjs.com/loaders/)
+[plugin](https://www.webpackjs.com/plugins/)
+
+### babel和webpack的区别
+* babel-js新语法编译工具，不关心模块化
+* webpack-打包构建工具，是多个loader plugin集合
+
