@@ -4,8 +4,8 @@
   "description": "webpack-demo",
   "main": "index.js",
   "scripts": {
-    "dev":"webpack-dev-server --config build-splitChunks/webpack.dev.js",
-    "build":"webpack --config build-splitChunks/webpack.prod.js",
+    "dev":"webpack-dev-server --config build-optimization/webpack.dev.js",
+    "build":"webpack --config build-optimization/webpack.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

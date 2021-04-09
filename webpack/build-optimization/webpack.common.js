@@ -11,12 +11,8 @@ module.exports = {
         other: path.join(srcPath, 'other.js')
     },
     module: {
-        rules: [{
-            test: /\.js$/,
-            loader: ['babel-loader?cacheDirectory'],//开启缓存
-            include: srcPath,
-            exclude: /node_modules/,
-        }]
+        //babel-loader
+        rules: []
     },
     plugins: [
         //多入口-生成index.html
